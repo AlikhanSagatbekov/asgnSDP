@@ -1,4 +1,5 @@
 package net.proselyte.basepatterns.creational.singleton;
+
 public class Runner {
     public static void main(String[] args) {
         Logger.getLogger().addLogInfo("First log");
@@ -7,4 +8,5 @@ public class Runner {
 
         Logger.getLogger().showLogFile();
     }
+
 }
